@@ -1,13 +1,18 @@
 import logo from './assets/images/logo-big.png';
 import './App.scss';
+import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom'
+
+import PageClass from './Pages/PageClass/Class'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+          <Routes>
+            <Route path='/class' element={<PageClass/>}/>
+          </Routes>
+      </div>
+    </Router>
   );
 }
 
