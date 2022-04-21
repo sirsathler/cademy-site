@@ -1,0 +1,35 @@
+.page-login {
+    height: 100vh;
+    background-color: rgb(126, 126, 126); //MUDAR DEPOIS
+}
+.logo-container {
+    width:  240px ;
+    img {
+        width: 100%;
+    }
+}
+.login-header {
+    height: 60vh;
+    background-color: aquamarine; //MUDAR DEPOIS
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-bottom{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column
+
+}
+.title-welcome{
+    font-size:40px;
+   
+    
+
+}
+.login-button{
+    align-items: center;
+    display: flex
+}
