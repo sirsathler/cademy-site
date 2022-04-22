@@ -1,0 +1,12 @@
+.home-button{
+    width: 196px;
+    height: 196px;
+    background-color: #FFFFFF;
+    display: block;
+    border-radius: 16px;
+
+    &:nth-child(1){
+        background-color: #00CCFF;
+    }
+}
+

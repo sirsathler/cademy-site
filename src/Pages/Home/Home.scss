@@ -1,0 +1,16 @@
+.page-home{
+    height: 100vh;
+   background-color: #E5E5E5; 
+}
+
+.home-menu-container{
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 196px);
+    grid-template-rows: repeat(auto-fill, 196px);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
