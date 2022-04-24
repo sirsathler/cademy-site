@@ -1,0 +1,28 @@
+/*VARIÁVEIS FORA DE UM ESCOPO SÃO GLOBAIS, PODEM SER USADAS EM QUALQUER SELETOR CSS DESDE QUE SEJA IMPORTADO ESTE ARQUIVO*/
+
+/*COLORS*/
+
+$primary: #00CCFF;
+$onprimary: #000000;
+$secondary: #FFFFFF;
+$onsecondary: #000000;
+$surface: #F0F0F0;
+$onsurface: #606060;
+$error: #C80000;
+
+/*COLORS*/
+
+/*CLASSES*/
+
+.container{width: 100%; max-width: 1480px; height: inherit;}
+
+/*CLASSES*/
+
+/*BREAKPOINTS*/
+
+$phone: 360px;
+$tablet: 768px;
+$desktop: 1366px;
+$largeDesktop: 1920px;
+
+/*BREALPOINTS*/
