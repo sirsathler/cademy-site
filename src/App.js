@@ -2,7 +2,7 @@ import logo from './Assets/Images/logo-big.png';
 import './App.scss';
 import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom'
 
-import Class from './Componentsa/Class/Class'
+import Class from './Components/Class/Class'
 
 function App() {
   return (
