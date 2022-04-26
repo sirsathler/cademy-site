@@ -1,0 +1,24 @@
+.class-card{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #00CCFF;
+    border-radius: 8px;
+    flex-direction: column;
+    text-decoration: none;
+    height: 216px;
+
+    &__img{
+        width: 68px;
+        margin-bottom: 8px;
+    }
+    &__title{
+        color: black;
+        margin-bottom: 8px;
+        font-size: 32px;
+    }
+    &__teacher{
+        color: #606060;
+        font-size: 24px;
+    }
+}

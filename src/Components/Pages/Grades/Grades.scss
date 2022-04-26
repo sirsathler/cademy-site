@@ -1,0 +1,23 @@
+@import '../../Global/Variables.scss';
+
+.grade-header{
+   margin: 60px;
+}
+.grade-header__img{
+    padding-bottom: 10px;
+    width: 60px;
+}
+.grade-header__title{
+    font-size: 36px;
+}
+.class-list-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 356px);
+    grid-template-rows: repeat(auto-fill, 216px);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    // width: 356px;
+    // margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
