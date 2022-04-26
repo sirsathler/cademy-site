@@ -12,8 +12,8 @@ export default function Grades() {
                 <p className='grade-header__title'>DISCIPLINAS</p>
             </div>
             <div className='class-list-grid'>
-                <ClassCard img={CardIconComputer} title="Algoritmos & Estrutura de Dados II" teacher="Prof: Me. Nilton Freitas Jr"></ClassCard>
-                <ClassCard img={CardIconMath} title="Matemática Discreta" teacher="Prof: Me. William Seilá"></ClassCard>
+                <ClassCard imgCard={CardIconComputer} title="Algoritmos & Estrutura de Dados II" teacher="Prof: Me. Nilton Freitas Jr"></ClassCard>
+                <ClassCard imgCard={CardIconMath} title="Matemática Discreta" teacher="Prof: Me. William Seilá"></ClassCard>
             </div>
         </>
     )
