@@ -14,7 +14,9 @@ $error: #C80000;
 
 /*CLASSES*/
 
+
 .container{width: 100%; max-width: 1480px; height: inherit;}
+.flex{display: flex;}
 
 /*CLASSES*/
 
@@ -25,4 +27,4 @@ $tablet: 768px;
 $desktop: 1366px;
 $largeDesktop: 1920px;
 
-/*BREALPOINTS*/
+/*BREAKPOINTS*/
