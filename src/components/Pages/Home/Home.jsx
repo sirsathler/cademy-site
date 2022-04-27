@@ -2,11 +2,11 @@
 import css from './Home.scss'
 import HomeButton from './Components/HomeButton.jsx'
 
-import gradeIcon from '../../../../src/assets/images/Icons/Grade.svg'
-import reportcardIcon from '../../../assets/images/Icons/Report Card.svg'
-import internIcon from '../../../assets/images/Icons/Intern.svg'
-import contactsIcon from '../../../assets/images/Icons/Contacts.svg'
-import studiesIcon from '../../../assets/images/Icons/Studies.svg'
+import gradeIcon from '../../../Assets/Images/Icons/Grade.svg'
+import reportcardIcon from '../../../Assets/Images/Icons/Report Card.svg'
+import internIcon from '../../../Assets/Images/Icons/Intern.svg'
+import contactsIcon from '../../../Assets/Images/Icons/Contacts.svg'
+import studiesIcon from '../../../Assets/Images/Icons/Studies.svg'
 
 export default function Home(){
     return(

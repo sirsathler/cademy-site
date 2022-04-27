@@ -12,20 +12,20 @@ code {
 
 @font-face {
   font-family: Futura;
-  src: url("../src/assets/Fonts/Futura.ttf");
+  src: url("../src/Assets/Fonts/Futura.ttf");
 }
 
 @font-face {
   font-family: FuturaBold;
-  src: url("../src/assets/Fonts/FuturaBold.ttf");
+  src: url("../src/Assets/Fonts/FuturaBold.ttf");
 }
 
 @font-face {
   font-family: FuturaMedium;
-  src: url("../src/assets/Fonts/FuturaMedium.ttf");
+  src: url("../src/Assets/Fonts/FuturaMedium.ttf");
 }
 
 @font-face {
   font-family: FuturaCondensed;
-  src: url("../src/assets/Fonts/FuturaCondensed.otf");
+  src: url("../src/Assets/Fonts/FuturaCondensed.otf");
 }

@@ -1,9 +1,9 @@
-import logo from './assets/images/logo-big.png';
+import logo from './Assets/Images/logo-big.png';
 import './App.scss';
 import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom'
 
-import Home from './components/Pages/Home/Home'
-import Class from './components/Pages/Class/Class'
+import Home from './Components/Pages/Home/Home'
+import Class from './Components/Pages/Class/Class'
 
 function App() {
   return (
