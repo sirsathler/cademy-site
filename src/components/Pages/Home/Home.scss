@@ -1,6 +1,8 @@
+@import '../../Global/Variables.scss';
+
 .page-home{
     height: 100vh;
-   background-color: #E5E5E5; 
+    background-color: $surface; 
 }
 
 .home-menu-container{

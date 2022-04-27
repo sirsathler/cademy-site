@@ -1,7 +1,9 @@
+@import '../../../Global/Variables.scss';
+
 .home-button{
     width: 196px;
     height: 196px;
-    background-color: #FFFFFF;
+    background-color: $secondary;
     display: flex;
     border-radius: 16px;
     align-items: center;
@@ -10,7 +12,7 @@
     cursor: pointer;
 
     &:nth-child(1){
-        background-color: #00CCFF;
+        background-color: $primary;
     }
 
     &__title{
