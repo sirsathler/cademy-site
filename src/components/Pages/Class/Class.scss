@@ -19,11 +19,16 @@
         para não dar problema de cores diferentes no background*/
 
         .to-done{
+            display: flex;
+            justify-content: center;
             width: 100%;
             height: 240px;
             padding: 12px 0;
 
             &__title{
+                width: 1440px;
+                text-align: start;
+                font-size: 1.6rem;
                 color: $onsurface;
             }
         }
