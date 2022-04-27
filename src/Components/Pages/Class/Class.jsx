@@ -7,10 +7,10 @@ export default function Class(){
                 
             </section>
             <main className='activities'>
-                <section className='to-done'>
+                <section className='to-done flex'>
                     <p className='to-done__title'>Atividades</p>
                 </section>
-                <section className='to-done'>
+                <section className='to-done flex'>
                     <p className='to-done__title'>Finalizados</p>
                 </section>
             </main>
