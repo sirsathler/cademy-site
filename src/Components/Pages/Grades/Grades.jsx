@@ -5,15 +5,24 @@ import CardIconComputer from '../../../Assets/Images/Icons/computer.svg'
 import CardIconMath from '../../../Assets/Images/Icons/math.svg'
 
 export default function Grades() {
-    return (
+    return(
         <>
             <div className='grade-header'>
                 <img className='grade-header__img' src={PageIcon} alt="Grades" />
                 <p className='grade-header__title'>DISCIPLINAS</p>
             </div>
             <div className='class-list-grid'>
-                <ClassCard imgCard={CardIconComputer} title="Algoritmos & Estrutura de Dados II" teacher="Prof: Me. Nilton Freitas Jr"></ClassCard>
-                <ClassCard imgCard={CardIconMath} title="Matemática Discreta" teacher="Prof: Me. William Seilá"></ClassCard>
+                <ClassCard 
+                    imgCard={CardIconComputer} 
+                    title="Algoritmos & Estrutura de Dados II" 
+                    teacher="Prof: Me. Nilton Freitas Jr"
+                />
+                <ClassCard  
+                    imgCard={CardIconMath} 
+                    title="Matemática Discreta" 
+                    teacher="Prof: Me. William Seilá"
+                />
+               
             </div>
         </>
     )
