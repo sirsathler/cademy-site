@@ -1,6 +1,5 @@
 .page-login {
-    height: 100vh;
-    background-color: rgb(126, 126, 126); //MUDAR DEPOIS
+    background-color: #ffffff; //MUDAR DEPOIS
 }
 .logo-container {
     width:  240px ;
@@ -10,26 +9,45 @@
 }
 .login-header {
     height: 60vh;
-    background-color: aquamarine; //MUDAR DEPOIS
+    background-color: rgb(255, 255, 255); //MUDAR DEPOIS
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .login-bottom{
-    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:column
-
+    flex-direction:column;
+     background-color:  rgb(253, 253, 253);
+     
 }
+
+
 .title-welcome{
-    font-size:40px;
-   
+      font-size:40px;
+      margin: 30px;
+   } 
+    
+
+.login-button{
+    align-items: center;
+    display: flex;
     
 
 }
-.login-button{
-    align-items: center;
-    display: flex
+
+.menu-button{
+    height: 139px;
+    width: 330px;
+    background-color: rgb(78, 78, 223);
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px;
+    
+    
+}
+.login-input-container{
+    display:flex;
+    flex-direction:column;
 }
